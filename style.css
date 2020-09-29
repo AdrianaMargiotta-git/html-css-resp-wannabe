@@ -71,3 +71,41 @@ img {
 .clear {
   clear: both;
 }
+
+
+/*ESERCIZIO*/
+@media screen and (max-width: 420px) {
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  .row {
+    width: 100%;
+    float: none;
+  }
+
+    #lezioni .row img {
+      max-width: 100%;
+    }
+
+    #why .row img {
+    max-width: 100%;
+    /*da 30px*/
+    padding: 1px;
+    }
+
+    #steps .row img {
+    max-width: 100%;
+    }
+
+}
